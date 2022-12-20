@@ -47,6 +47,7 @@ homebrew_installed_packages:
   - htop
   - iperf
   - libevent
+  - keychain
   - sqlite
   - mcrypt
   - ncdu
@@ -65,13 +66,14 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - docker
   - firefox
   - google-chrome
+  - iterm2
   - jetbrains-toolbox
   - mattermost
   - microsoft-teams
   - microsoft-office
+  - rancher
   - syncthing
 
   - keybase
