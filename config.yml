@@ -58,6 +58,7 @@ homebrew_installed_packages:
   - openssl
   - pv
   - wget
+  - terraform
   - tmux
 
 homebrew_taps:
