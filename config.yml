@@ -30,11 +30,11 @@ sudoers_custom_config: ''
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
+  - azure-cli
   - bash
   - bash-completion
   - coreutils
   - curl
-  - dotnet@6
   - doxygen
   - findutils
   - fx
@@ -52,22 +52,28 @@ homebrew_installed_packages:
   - mcrypt
   - ncdu
   - nmap
+  - nvm
   - ssh-copy-id
   - cowsay
   - readline
   - openssl
   - pv
   - wget
+  - smartmontools
   - terraform
   - tmux
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+# see https://github.com/isen-ng/homebrew-dotnet-sdk-versions
+  - isen-ng/dotnet-sdk-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alt-tab
+  - bankid
+  - dotnet-sdk6-0-400
   - firefox
   - google-chrome
   - iterm2
