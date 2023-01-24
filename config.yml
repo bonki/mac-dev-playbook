@@ -42,6 +42,7 @@ homebrew_installed_packages:
   - gifsicle
   - git
   - github/gh/gh
+  - gnu-sed
   - go
   - gpg
   - htop
