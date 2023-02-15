@@ -74,6 +74,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alt-tab
   - bankid
+  - citrix-workspace
   - dotnet-sdk6-0-400
   - firefox
   - google-chrome
